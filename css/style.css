@@ -1,0 +1,31 @@
+/* Fonts :
+avenir_55roman
+avenir_35_lightregular
+avenir_85_heavyregular
+avenir_95_blackregular
+----------------------------------------------------------------------------------------------------*/
+
+body{font-family: 'avenir_35_lightregular', sans-serif;color: #949494;}
+*:focus{outline: none!important;}
+a{-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;-ms-transition: all 0.3s;transition: all 0.3s;}
+a:hover{text-decoration: none;}
+.btn{border-radius: 3px; font-family: 'avenir_85_heavyregular', sans-serif;color: #fff;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;-ms-transition: all 0.3s;transition: all 0.3s;}
+.btn:hover{color: #fff;}
+.form-control{border-radius: 3px;color: #afafaf;font-family: 'avenir_55roman', sans-serif;}
+.form-control:focus{border-color: #80C154;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(128, 193, 84, 0.53); box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(128, 193, 84, 0.53);}
+
+/* Login Page */
+.login-page{background-color: #80C154;}
+.form-signin {max-width: 330px; padding: 15px; margin: 0 auto; height: 330px;position: absolute;top: 50%;margin-top: -165px;width: 100%;left: 50%;margin-left: -165px;}
+.form-signin #logo{margin: 0 0 40px;}
+.form-signin .form-signin-heading, .form-signin .checkbox {margin-bottom: 10px; }
+.form-signin .checkbox {font-weight: normal; }
+.form-signin .form-control {position: relative; height: auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 10px; font-size: 16px; }
+.form-signin .form-control:focus {z-index: 2; }
+.form-signin input[type="text"] {margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0; }
+.form-signin input[type="password"] {margin-bottom: 10px; border-top-left-radius: 0; border-top-right-radius: 0; }
+.form-signin .btn{background-color: rgba(255,255,255, 0.4);}
+.form-signin .btn:hover{background-color: rgba(255,255,255, 0.9);color: #80C154;}
+
+
+

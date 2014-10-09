@@ -44,9 +44,8 @@
         </div>
         <div class="">
           <ul class="nav navbar-nav nav-tabs" role="tablist">
-            <li class="active"><a href="#Daily" role="tab" data-toggle="tab">Daily</a></li>
-            <li><a href="#Monthly" role="tab" data-toggle="tab">Monthly</a></li>
-            <li><a href="#Download" role="tab" data-toggle="tab">Download</a></li>
+            <li class="active"><a href="#Billing" role="tab" data-toggle="tab">Billing</a></li>
+            <li><a href="#Login" role="tab" data-toggle="tab">Login</a></li>
           </ul>
         </div>
       </div>
@@ -55,7 +54,7 @@
     <div class="container-fluid">
       <div class="sidebar">
         <ul class="nav nav-sidebar">
-          <li class="active">
+          <li>
             <a href="analytics.html">
               <i class="fa fa-bar-chart"></i>
               <span class="text-center">Analytics</span>
@@ -67,7 +66,7 @@
               <span class="text-center">Profile</span>
             </a>
           </li>
-          <li>
+          <li class="active">
             <a href="manager.html">
               <i class="fa fa-cog"></i>
               <span class="text-center">Manager</span>
@@ -85,31 +84,28 @@
       <div class="main">
 
         <div class="tab-content">
-          <div role="tabpanel" class="tab-pane fade in active" id="Daily">
-            <h1 class="page-header">Overview of Your Restaurant</h1>
-            <section class="the-date">
+          <div role="tabpanel" class="tab-pane fade in active" id="Billing">
+            <h1 class="page-header">Billing Details</h1>
+
+            <section class="payment-plan">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h3>Subscription includes access to the iPad app, restaurant listing via eatapp.co, and the Eat management dashboard.</h3>
+                </div>
+                <div class="col-sm-4 text-right">
+                  <h4><strong>Payment Plan $109 / month</strong></h4>
+                  <h4>$99 Eat Monthly + $9 Analytics</h4>
+                </div>
+              </div>
+            
+            </section><!-- payment-plan -->
+
+            <section class="credit-card">
               <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
-                <li>Friday, June 3, 2014</li>
-                <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
-              </ul>
-            </section>
-
-            <img src="img/chart.jpg" alt="">
-
-            <div class="covers">
-              <strong>132 </strong>Covers
-            </div>
-          </div><!-- Daily -->
-
-
-          <div role="tabpanel" class="tab-pane fade" id="Monthly">
-            <h1 class="page-header">Monthly Report</h1>
-            <section class="the-date ">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
-                <li>June 1 - June 30, 2014</li>
-                <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                <li><strong>Credit Card</strong></li>
+                <li>xxxx xxxx xxxx 1920, 09/2016</li>
+                <li><img src="img/visa.png" alt=""></li>
+                <li><a href="#">Edit Card</a></li>
               </ul>
             </section>
 
@@ -117,434 +113,108 @@
               <table class="table table-striped ">
                 <thead>
                   <tr>
-                    <th class="bdr">Date</th>
-                    <th>Online</th>
-                    <th>In-House</th>
-                    <th class="bdr">Total</th>
-                    <th>Reservations</th>
-                    <th>Welk-Ins</th>
-                    <th class="bdr">Total</th>
-                    <th>No Show</th>
-                    <th>Concelled</th>
+                    <th>Date Billed</th>
+                    <th>Amount</th>
+                    <th>Billed to Card Ending With</th>
+                    <th>Status</th>
                   </tr>
                 </thead>
 
                 <tbody>
-                  <tr>
-                    <td class="bdr">
-                      <a href="#">Lunch</a>
-                      <span class="date">2014-08-03</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td><span>0</span></td>
+                  <tr class="Upcoming">
+                    <td>09/01/2014</td>
+                    <td>$99.00</td>
+                    <td>**** **** **** 0411 <img src="img/visa.png" alt=""></td>
+                    <td>Upcoming</td>
                   </tr>
                   <tr>
-                    <td class="bdr">
-                      <a href="#">Lunch</a>
-                      <span class="date">2014-08-03</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td><span>0</span></td>
+                    <td>08/01/2014</td>
+                    <td>$99.00</td>
+                    <td>**** **** **** 0411 <img src="img/visa.png" alt=""></td>
+                    <td>Successful</td>
                   </tr>
                   <tr>
-                    <td class="bdr">
-                      <a href="#">Lunch</a>
-                      <span class="date">2014-08-03</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td><span>0</span></td>
+                    <td>08/01/2014</td>
+                    <td>$99.00</td>
+                    <td>**** **** **** 0411 <img src="img/visa.png" alt=""></td>
+                    <td>Successful</td>
                   </tr>
                   <tr>
-                    <td class="bdr">
-                      <a href="#">Lunch</a>
-                      <span class="date">2014-08-03</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td><span>0</span></td>
+                    <td>08/01/2014</td>
+                    <td>$99.00</td>
+                    <td>**** **** **** 0411 <img src="img/visa.png" alt=""></td>
+                    <td>Successful</td>
                   </tr>
                   <tr>
-                    <td class="bdr">
-                      <a href="#">Lunch</a>
-                      <span class="date">2014-08-03</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td><span>0</span></td>
+                    <td>08/01/2014</td>
+                    <td>$99.00</td>
+                    <td>**** **** **** 0411 <img src="img/visa.png" alt=""></td>
+                    <td>Successful</td>
                   </tr>
                   <tr>
-                    <td class="bdr">
-                      <a href="#">Lunch</a>
-                      <span class="date">2014-08-03</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td><span>0</span></td>
+                    <td>08/01/2014</td>
+                    <td>$99.00</td>
+                    <td>**** **** **** 0411 <img src="img/visa.png" alt=""></td>
+                    <td>Successful</td>
                   </tr>
                   <tr>
-                    <td class="bdr">
-                      <a href="#">Lunch</a>
-                      <span class="date">2014-08-03</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td><span>0</span></td>
+                    <td>08/01/2014</td>
+                    <td>$99.00</td>
+                    <td>**** **** **** 0411 <img src="img/visa.png" alt=""></td>
+                    <td>Successful</td>
                   </tr>
                   <tr>
-                    <td class="bdr">
-                      <a href="#">Lunch</a>
-                      <span class="date">2014-08-03</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td><span>0</span></td>
+                    <td>08/01/2014</td>
+                    <td>$99.00</td>
+                    <td>**** **** **** 0411 <img src="img/visa.png" alt=""></td>
+                    <td>Successful</td>
                   </tr>
                   <tr>
-                    <td class="bdr">
-                      <a href="#">Lunch</a>
-                      <span class="date">2014-08-03</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td><span>0</span></td>
-                  </tr>
-                  <tr>
-                    <td class="bdr">
-                      <a href="#">Lunch</a>
-                      <span class="date">2014-08-03</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td><span>0</span></td>
-                  </tr>
-                  <tr>
-                    <td class="bdr">
-                      <a href="#">Lunch</a>
-                      <span class="date">2014-08-03</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td class="bdr"><span class="blue">0</span></td>
-                  
-                    <td>
-                      0 <span class="gray">(0%)</span>
-                    </td>
-                  
-                    <td><span>0</span></td>
+                    <td>08/01/2014</td>
+                    <td>$99.00</td>
+                    <td>**** **** **** 0411 <img src="img/visa.png" alt=""></td>
+                    <td>Successful</td>
                   </tr>
                 </tbody>
               </table>
+              <h4>Showing the previous 8 transactions. To receive more transaction info, please contact support.</h4>
             </div>
 
-          </div><!-- Monthly -->
+          </div><!-- Billing -->
 
 
-          <div role="tabpanel" class="tab-pane fade" id="Download">
-            <h1 class="page-header">Download Analytics</h1>
-            <h2 class="sub-header">For an extra $9 a month, you can download visuals of your anaylitcs. View example here: <a href="#">Analytics Preview</a></h2>
+          <div role="tabpanel" class="tab-pane fade" id="Login">
+            <h1 class="page-header">Change Password</h1>
+            <div class="row">
+              <form class="form-horizontal col-xs-4" role="form">
+                <div class="form-group">
+                  <label for="old_password" class="col-sm-5 control-label">Old Password:</label>
+                  <div class="col-sm-7">
+                    <input type="text" class="form-control" id="old_password">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="new_password" class="col-sm-5 control-label">New Password:</label>
+                  <div class="col-sm-7">
+                    <input type="text" class="form-control" id="new_password">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="confirm_new_password" class="col-sm-5 control-label">Confirm New Password:</label>
+                  <div class="col-sm-7">
+                    <input type="text" class="form-control" id="confirm_new_password">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-7 col-sm-offset-5 text-center">
+                    <input type="submit" name="" class="btn btn-success btn-lg" value="Save Changes">
+                  </div>
+                </div>
+              
+              </form>
+            </div>
 
-            <section class="Downloads">
-              <div class="row">
-                <div class="col-xs-4">
-                  <a data-toggle="modal" data-target="#downloadModal" href="#" class="btn btn-success btn-lg">Download</a>
-                </div>
-                <div class="col-sm-5">
-                  <span class="date">June 1 - June 30, 2014</span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-4">
-                  <a data-toggle="modal" data-target="#downloadModal" href="#" class="btn btn-success btn-lg">Download</a>
-                </div>
-                <div class="col-sm-5">
-                  <span class="date">July 1 - July 31, 2014</span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-4">
-                  <a data-toggle="modal" data-target="#downloadModal" href="#" class="btn btn-success btn-lg">Download</a>
-                </div>
-                <div class="col-sm-5">
-                  <span class="date">August 1 - August 31, 2014</span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-4">
-                  <a data-toggle="modal" data-target="#downloadModal" href="#" class="btn btn-success btn-lg">Download</a>
-                </div>
-                <div class="col-sm-5">
-                  <span class="date">September 1 - September 30, 2014</span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-4">
-                  <a data-toggle="modal" data-target="#downloadModal" href="#" class="btn btn-success btn-lg">Download</a>
-                </div>
-                <div class="col-sm-5">
-                  <span class="date">October 1 - October 31, 2014</span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-4">
-                  <a data-toggle="modal" data-target="#downloadModal" href="#" class="btn btn-success btn-lg">Download</a>
-                </div>
-                <div class="col-sm-5">
-                  <span class="date">November 1 - November 30, 2014</span>
-                </div>
-              </div>
-            </section>
-    
-          </div><!-- Download -->
+          </div><!-- Login -->
         </div><!-- tab-content -->
 
       </div>

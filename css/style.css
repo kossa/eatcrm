@@ -7,7 +7,7 @@ avenir_95_blackregular
 ----------------------------------------------------------------------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:100);
 
-body{font-family: 'avenir_35_lightregular', sans-serif;color: #949494;padding-top: 50px;background: #f8f9fa;}
+body{font-family: 'avenir_35_lightregular', sans-serif;color: #000;padding-top: 50px;background: #f8f9fa;}
 .container-fluid{min-width: 767px;}
 *:focus{outline: none!important;}
 a{color: #80C154;  -webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;-ms-transition: all 0.3s;transition: all 0.3s;}
@@ -17,8 +17,8 @@ strong{font-family: 'avenir_95_blackregular',sans-serif;}
 .mt30{margin-top: 30px;}
 .bg-green{background-color: #80C154!important;color: #fff!important;}
 .form-group{margin-bottom: 20px;}
-.control-label{font-family: 'Roboto', sans-serif;font-weight: 100;color: #000;font-size: 16px;}
-.form-control{color: #000;border-radius: 8px;font-family: 'avenir_55roman', sans-serif;height: 42px;}
+.control-label{font-family: 'Roboto', sans-serif;font-weight: 100;font-size: 16px;}
+.form-control{border-radius: 8px;font-family: 'avenir_55roman', sans-serif;height: 42px;}
 .form-control:focus{border-color: #80C154;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(128, 193, 84, 0.53); box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(128, 193, 84, 0.53);}
 select.form-control{background: #ffffff;font-size: 24px;
   background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 56%, #efefef 65%, #f7f7f7 97%, #ffffff 100%);
@@ -78,7 +78,7 @@ tr th{padding-left: 10px!important;background: #ffffff; /* Old browsers */
 
 /* Main */
 .main{padding: 20px 30px 100px 130px;}
-.main h1.page-header{padding-bottom: 20px;margin-bottom: 20px;font-family: 'Roboto', sans-serif;font-weight: 100;color: #000;font-size: 42px;border-bottom: 1px solid #B9B9B9}
+.main h1.page-header{padding-bottom: 20px;margin-bottom: 20px;font-family: 'Roboto', sans-serif;font-weight: 100;font-size: 42px;border-bottom: 1px solid #B9B9B9}
 .main h2.sub-header{font-size: 18px;}
 
 /*
@@ -86,11 +86,8 @@ tr th{padding-left: 10px!important;background: #ffffff; /* Old browsers */
 | Pages
 |------------------------------------------------------------------------------------
 */
-/* Monthly */
-#Monthly {color: #000;}
 
 /* Hours */
-#Hours{color: #000;}
 #Hours p{margin: 0;}
 
 /*RoomsEdit*/
@@ -115,7 +112,7 @@ section.the-date{border: 1px solid #ACACAC;float: left;border-radius: 15px;font-
 section.the-date ul{margin: 0;}
 
 /*Covers*/
-.covers{font-size: 45px;text-align: center;color: #000;font-family: 'Roboto', sans-serif;}
+.covers{font-size: 45px;text-align: center;font-family: 'Roboto', sans-serif;}
 .covers strong{font-family: 'Roboto', sans-serif;}
 
 /*Download*/
@@ -124,7 +121,7 @@ section.the-date ul{margin: 0;}
 .Downloads .date{padding-left: 20px;float: left; margin-top: 10px;}
 .Downloads .btn{float: right;}
 
-/*Component*/
+/*Pagination*/
 .pagination{margin: 0;}
 .pagination>li>a, .pagination>li>span{padding: 10px 5px;min-width: 42px;text-align: center;background-color: #AFAFAF;color: #fff;}
 .pagination>li>a:hover, .pagination>li>span:hover{background-color: #AFAFAF;color: #fff;}
@@ -136,9 +133,19 @@ section.the-date ul{margin: 0;}
 .delete-btn:hover{background-color: #666;color: #fff;}
 
 /*Tables*/
-table{font-size: 13px;border: 1px solid #D6D6D6;color: #000;}
+table{font-size: 13px;border: 1px solid #D6D6D6;}
 .table>tbody>tr>td{vertical-align: middle;line-height: 1.4;padding: 4px 10px;}
 table a{color: #4581C7;display: block;}
+
+/*payment-plan*/
+section.payment-plan{padding-bottom: 20px;border-bottom: 1px solid #B9B9B9;font-family: 'Roboto', sans-serif; font-weight: 100; }
+section.payment-plan h3{margin-top: 10px;}
+
+/*credit-card*/
+section.credit-card{font-size: 18px;padding: 30px 0;}
+
+/*Upcoming*/
+.Upcoming{opacity: 0.4;}
 
 /*
 |------------------------------------------------------------------------------------

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="ico/favicon.ico">
+
+    <title>Analytics - CRM</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="fonts/fonts.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> -->
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="">
+          <ul class="nav navbar-nav nav-tabs" role="tablist">
+            <li class="active"><a href="#Daily" role="tab" data-toggle="tab">Daily</a></li>
+            <li><a href="#Monthly" role="tab" data-toggle="tab">Monthly</a></li>
+            <li><a href="#Download" role="tab" data-toggle="tab">Download</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="sidebar">
+        <ul class="nav nav-sidebar">
+          <li class="active">
+            <a href="analytics.html">
+              <i class="fa fa-bar-chart"></i>
+              <span class="text-center">Analytics</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="fa fa-home"></i>
+              <span class="text-center">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="manager.html">
+              <i class="fa fa-cog"></i>
+              <span class="text-center">Manager</span>
+            </a>
+          </li>
+          <li>
+            <a href="login.html">
+              <i class="fa fa-sign-out"></i>
+              <span class="text-center">Logout</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="main">
+
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane fade in active" id="Daily">
+            <h1 class="page-header">Overview of Your Restaurant</h1>
+            <section class="the-date">
+              <ul class="list-inline">
+                <li><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+                <li>Friday, June 3, 2014</li>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+              </ul>
+            </section>
+
+            <img src="img/chart.jpg" alt="">
+
+            <div class="covers">
+              <strong>132 </strong>Covers
+            </div>
+          </div><!-- Daily -->
+
+
+          <div role="tabpanel" class="tab-pane fade" id="Monthly">
+            <h1 class="page-header">Monthly Report</h1>
+            <section class="the-date ">
+              <ul class="list-inline">
+                <li><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+                <li>June 1 - June 30, 2014</li>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+              </ul>
+            </section>
+
+            <div class="table-responsive">
+              <table class="table table-striped ">
+                <thead>
+                  <tr>
+                    <th class="bdr">Date</th>
+                    <th>Online</th>
+                    <th>In-House</th>
+                    <th class="bdr">Total</th>
+                    <th>Reservations</th>
+                    <th>Welk-Ins</th>
+                    <th class="bdr">Total</th>
+                    <th>No Show</th>
+                    <th>Concelled</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td class="bdr">
+                      <a href="#">Lunch</a>
+                      <span class="date">2014-08-03</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td><span>0</span></td>
+                  </tr>
+                  <tr>
+                    <td class="bdr">
+                      <a href="#">Lunch</a>
+                      <span class="date">2014-08-03</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td><span>0</span></td>
+                  </tr>
+                  <tr>
+                    <td class="bdr">
+                      <a href="#">Lunch</a>
+                      <span class="date">2014-08-03</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td><span>0</span></td>
+                  </tr>
+                  <tr>
+                    <td class="bdr">
+                      <a href="#">Lunch</a>
+                      <span class="date">2014-08-03</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td><span>0</span></td>
+                  </tr>
+                  <tr>
+                    <td class="bdr">
+                      <a href="#">Lunch</a>
+                      <span class="date">2014-08-03</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td><span>0</span></td>
+                  </tr>
+                  <tr>
+                    <td class="bdr">
+                      <a href="#">Lunch</a>
+                      <span class="date">2014-08-03</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td><span>0</span></td>
+                  </tr>
+                  <tr>
+                    <td class="bdr">
+                      <a href="#">Lunch</a>
+                      <span class="date">2014-08-03</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td><span>0</span></td>
+                  </tr>
+                  <tr>
+                    <td class="bdr">
+                      <a href="#">Lunch</a>
+                      <span class="date">2014-08-03</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td><span>0</span></td>
+                  </tr>
+                  <tr>
+                    <td class="bdr">
+                      <a href="#">Lunch</a>
+                      <span class="date">2014-08-03</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td><span>0</span></td>
+                  </tr>
+                  <tr>
+                    <td class="bdr">
+                      <a href="#">Lunch</a>
+                      <span class="date">2014-08-03</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td><span>0</span></td>
+                  </tr>
+                  <tr>
+                    <td class="bdr">
+                      <a href="#">Lunch</a>
+                      <span class="date">2014-08-03</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td class="bdr"><span class="blue">0</span></td>
+                  
+                    <td>
+                      0 <span class="gray">(0%)</span>
+                    </td>
+                  
+                    <td><span>0</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div><!-- Monthly -->
+
+
+          <div role="tabpanel" class="tab-pane fade" id="Download">
+            <h1 class="page-header">Download Analytics</h1>
+            <h2 class="sub-header">For an extra $9 a month, you can download visuals of your anaylitcs. View example here: <a href="#">Analytics Preview</a></h2>
+
+            <section class="Downloads">
+              <div class="row">
+                <div class="col-xs-4">
+                  <a data-toggle="modal" data-target="#downloadModal" href="#" class="btn btn-success btn-lg">Download</a>
+                </div>
+                <div class="col-sm-5">
+                  <span class="date">June 1 - June 30, 2014</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4">
+                  <a data-toggle="modal" data-target="#downloadModal" href="#" class="btn btn-success btn-lg">Download</a>
+                </div>
+                <div class="col-sm-5">
+                  <span class="date">July 1 - July 31, 2014</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4">
+                  <a data-toggle="modal" data-target="#downloadModal" href="#" class="btn btn-success btn-lg">Download</a>
+                </div>
+                <div class="col-sm-5">
+                  <span class="date">August 1 - August 31, 2014</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4">
+                  <a data-toggle="modal" data-target="#downloadModal" href="#" class="btn btn-success btn-lg">Download</a>
+                </div>
+                <div class="col-sm-5">
+                  <span class="date">September 1 - September 30, 2014</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4">
+                  <a data-toggle="modal" data-target="#downloadModal" href="#" class="btn btn-success btn-lg">Download</a>
+                </div>
+                <div class="col-sm-5">
+                  <span class="date">October 1 - October 31, 2014</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4">
+                  <a data-toggle="modal" data-target="#downloadModal" href="#" class="btn btn-success btn-lg">Download</a>
+                </div>
+                <div class="col-sm-5">
+                  <span class="date">November 1 - November 30, 2014</span>
+                </div>
+              </div>
+            </section>
+    
+          </div><!-- Download -->
+        </div><!-- tab-content -->
+
+      </div>
+    </div>
+
+<div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <button type="button" class="close-btn" data-dismiss="modal"><i class="fa fa-close"></i></button>
+    <div class="modal-content">
+      
+      <div class="modal-body text-center">
+         <p>You will be charged <strong>$9 per month</strong> to access downloadable PDFs of your restaurant’s analytics. You can cancel your subscription at any time in the Manager page.</p>
+
+        <a href="#" class="btn btn-lg btn-success">Confirm Subscription</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

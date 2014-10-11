@@ -20,7 +20,7 @@ strong{font-family: 'avenir_95_blackregular',sans-serif;}
 .control-label{font-family: 'Roboto', sans-serif;font-weight: 100;font-size: 16px;}
 .form-control{border-radius: 8px;font-family: 'avenir_55roman', sans-serif;height: 42px;}
 .form-control:focus{border-color: #80C154;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(128, 193, 84, 0.53); box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(128, 193, 84, 0.53);}
-select.form-control{background: #ffffff;font-size: 24px;
+select.form-control{background: #ffffff;font-size: 16px;
   background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 56%, #efefef 65%, #f7f7f7 97%, #ffffff 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(56%,#f6f6f6), color-stop(65%,#efefef), color-stop(97%,#f7f7f7), color-stop(100%,#ffffff));
   background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 56%,#efefef 65%,#f7f7f7 97%,#ffffff 100%);

@@ -43,6 +43,7 @@ tr th{padding-left: 10px!important;background: #ffffff; /* Old browsers */
   background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 56%,#efefef 65%,#f7f7f7 97%,#ffffff 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
+.Total{font-weight: bold;}
 .bdr{border-right: 1px solid #D6D6D6;}
 /* Login Page */
 .login-page{background-color: #80C154;}

@@ -85,7 +85,7 @@
       <div class="main">
 
         <div class="tab-content">
-          <div role="tabpanel" class="tab-pane fade in active" id="Profile">
+          <div role="tabpanel" class="tab-pane fade" id="Profile">
             <h1 class="page-header">Restaurant Online Profile</h1>
             <div class="row">
               <form class="form-horizontal col-lg-5" role="form">
@@ -188,13 +188,13 @@
           </div><!-- Profile -->
 
 
-          <div role="tabpanel" class="tab-pane fade" id="Hours">
+          <div role="tabpanel" class="tab-pane fade in active" id="Hours">
             <h1 class="page-header">Business Hours</h1>
-            <a href="#" class="btn btn-success btn-lg pull-right">Add Shift</a>
+            <a href="#" id="add-shift" class="btn btn-success btn-lg pull-right">Add Shift</a>
             <div class="clearfix"></div>
 
             <div class="table-responsive mt30">
-              <table class="table table-striped table-bordered">
+              <table class="table table-striped table-bordered" id="shift-table">
                 <thead>
                   <tr>
                     <th>Sheet Details</th>

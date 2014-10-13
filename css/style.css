@@ -131,7 +131,7 @@ tr th{padding-left: 10px!important;background: #ffffff; /* Old browsers */
 /*the-date*/
 section.the-date{border: 1px solid #ACACAC;float: left;border-radius: 15px;font-size: 18px;padding: 5px 10px;margin-bottom: 50px;}
 section.the-date ul{margin: 0;}
-section.the-date .current-date{min-width: 280px; text-align: center;}
+section.the-date .current-date{min-width: 260px; text-align: center;}
 
 /*Covers*/
 .covers{font-size: 45px;text-align: center;font-family: 'Roboto', sans-serif;font-weight: 100;}

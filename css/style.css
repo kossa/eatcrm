@@ -5,7 +5,8 @@ avenir_55roman
 avenir_85_heavyregular
 avenir_95_blackregular
 ----------------------------------------------------------------------------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+
 
 body{font-family: 'avenir_35_lightregular', sans-serif;color: #000;padding-top: 50px;background: #f8f9fa;}
 .container-fluid{min-width: 767px;}
@@ -43,19 +44,32 @@ tr th{padding-left: 10px!important;background: #ffffff; /* Old browsers */
   background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 56%,#efefef 65%,#f7f7f7 97%,#ffffff 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
-.Total{font-weight: bold;}
+.Total{font-weight: bold;font-size: 14px;}
 .bdr{border-right: 1px solid #D6D6D6;}
 /* Login Page */
 .login-page{background-color: #80C154;}
 .form-signin {max-width: 330px; padding: 15px; margin: 0 auto; height: 330px;position: absolute;top: 50%;margin-top: -165px;width: 100%;left: 50%;margin-left: -165px;}
 .form-signin #logo{margin: 0 0 40px;}
+.form-signin #logo p{color: #fff;margin-top: 5px;}
 .form-signin .form-signin-heading, .form-signin .checkbox {margin-bottom: 10px; }
 .form-signin .checkbox {font-weight: normal; }
-.form-signin .form-control {position: relative; height: auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 10px; font-size: 16px; }
+.form-signin .form-control {position: relative; height: auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 10px 15px; font-size: 14px; text-align: center;}
 .form-signin .form-control:focus {z-index: 2; }
 .form-signin input[type="text"] {margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0; }
 .form-signin input[type="password"] {margin-bottom: 10px; border-top-left-radius: 0; border-top-right-radius: 0; }
-.form-signin .btn{background-color: rgba(255,255,255, 0.4);}
+.form-signin input::-webkit-input-placeholder {
+   color: rgb(190,190,190);
+}
+.form-signin input:-moz-placeholder { /* Firefox 18- */
+   color: rgb(190,190,190);  
+}
+.form-signin input::-moz-placeholder {  /* Firefox 19+ */
+   color: rgb(190,190,190);  
+}
+.form-signin input:-ms-input-placeholder {  
+   color: rgb(190,190,190);  
+}
+.form-signin .btn{background-color: rgba(255,255,255, 0.4);margin-top: 20px;}
 .form-signin .btn:hover{background-color: rgba(255,255,255, 0.9);color: #80C154;}
 
 
@@ -81,6 +95,7 @@ tr th{padding-left: 10px!important;background: #ffffff; /* Old browsers */
 .main{padding: 20px 30px 100px 130px;}
 .main h1.page-header{padding-bottom: 20px;margin-bottom: 20px;font-family: 'Roboto', sans-serif;font-weight: 100;font-size: 42px;border-bottom: 1px solid #B9B9B9}
 .main h2.sub-header{font-size: 18px;}
+.main h3.sub-header{line-height: 1.5; margin: 12px 0 -3px;font-size: 18px;}
 
 /*
 |------------------------------------------------------------------------------------
@@ -103,18 +118,23 @@ tr th{padding-left: 10px!important;background: #ffffff; /* Old browsers */
 /*BTN*/
 .btn{border: none;padding: 6px 20px;border-radius: 20px; font-family: 'avenir_35_lightregular', sans-serif;color: #fff;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;-ms-transition: all 0.3s;transition: all 0.3s;}
 .btn:hover, .btn:focus{color: #fff;}
-.btn-success{background-color: #8CD05D;}
+.btn-success, .btn-success:focus{background-color: #8CD05D;}
+.btn-success:hover{background-color: #449d44;}
 .btn-lg{font-size: 16px; padding: 11px 50px;}
 .btn-default{background-color: #ddd;color: #444;}
 .btn-default:hover{color: #444;}
+
+/*Image circle*/
+.thumb{width: 125px;height: 125px;border-radius: 100%; overflow: hidden;}
+.thumb img{height: 100%;}
 
 /*the-date*/
 section.the-date{border: 1px solid #ACACAC;float: left;border-radius: 15px;font-size: 18px;padding: 5px 10px;margin-bottom: 50px;}
 section.the-date ul{margin: 0;}
 
 /*Covers*/
-.covers{font-size: 45px;text-align: center;font-family: 'Roboto', sans-serif;}
-.covers strong{font-family: 'Roboto', sans-serif;}
+.covers{font-size: 45px;text-align: center;font-family: 'Roboto', sans-serif;font-weight: 100;}
+.covers strong{font-family: 'Roboto', sans-serif;font-weight: 400;}
 
 /*Download*/
 .Downloads{margin: 50px 0;font-size: 16px;}
@@ -136,10 +156,11 @@ section.the-date ul{margin: 0;}
 /*Tables*/
 table{font-size: 13px;border: 1px solid #D6D6D6;}
 .table>tbody>tr>td{vertical-align: middle;line-height: 1.4;padding: 4px 10px;}
+.table .date-created{float: left;margin-top: 7px;}
 table a{color: #4581C7;display: block;}
 
 /*payment-plan*/
-section.payment-plan{padding-bottom: 20px;border-bottom: 1px solid #B9B9B9;font-family: 'Roboto', sans-serif; font-weight: 100; }
+section.payment-plan{margin-top: -20px;padding-bottom: 10px;border-bottom: 1px solid #B9B9B9; }
 section.payment-plan h3{margin-top: 10px;}
 
 /*credit-card*/

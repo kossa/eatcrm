@@ -90,27 +90,61 @@
             <div class="row">
               <form class="form-horizontal col-lg-5" role="form">
                 <div class="form-group">
+                  <label for="profile_photo" class="col-sm-5 control-label">Profile Photo:</label>
+                  <div class="col-sm-7">
+                    <div class="thumb">
+                      <img src="img/img-02.jpg" alt="">
+                    </div>
+                    <input type="file" name="profile_photo" id="profile_photo" value="" placeholder="">
+                  </div>
+                </div>
+                <div class="form-group">
                   <label for="restaurent_name" class="col-sm-5 control-label">Restaurant Name:</label>
                   <div class="col-sm-7">
                     <input type="text" class="form-control" id="restaurent_name">
                   </div>
                 </div>
+
                 <div class="form-group">
                   <label for="cuisine" class="col-sm-5 control-label">Cuisine:</label>
                   <div class="col-sm-7">
-                    <input type="text" class="form-control" id="cuisine">
+                    <select name="cuisine" id="cuisine" class="form-control">
+                      <option value="Steakhouse">Steakhouse</option>
+                      <option value="Steakhouse">Steakhouse</option>
+                      <option value="Steakhouse">Steakhouse</option>
+                      <option value="Steakhouse">Steakhouse</option>
+                      <option value="Steakhouse">Steakhouse</option>
+                    </select>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="neighborhood" class="col-sm-5 control-label">Neighborhood:</label>
                   <div class="col-sm-7">
-                    <input type="text" class="form-control" id="neighborhood">
+                    <select name="neighborhood" id="neighborhood" class="form-control">
+                      <option value="Adliya">Adliya</option>
+                      <option value="Adliya">Adliya</option>
+                      <option value="Adliya">Adliya</option>
+                      <option value="Adliya">Adliya</option>
+                      <option value="Adliya">Adliya</option>
+                    </select>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="price" class="col-sm-5 control-label">Price:</label>
                   <div class="col-sm-7">
-                    <input type="text" class="form-control" id="price">
+                    <select name="price" id="price" class="form-control">
+                      <option value="$$$">$$$</option>
+                      <option value="$$$">$$$</option>
+                      <option value="$$$">$$$</option>
+                      <option value="$$$">$$$</option>
+                      <option value="$$$">$$$</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="description" class="col-sm-5 control-label">Description:</label>
+                  <div class="col-sm-7">
+                    <textarea name="description" id="description" class="form-control" rows="5"></textarea>
                   </div>
                 </div>
                 <div class="form-group">
@@ -129,6 +163,18 @@
                   <label for="city" class="col-sm-5 control-label">City:</label>
                   <div class="col-sm-7">
                     <input type="text" class="form-control" id="city">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="country" class="col-sm-5 control-label">Country:</label>
+                  <div class="col-sm-7">
+                    <select name="country" id="country" class="form-control">
+                      <option value="Country">Country</option>
+                      <option value="Country">Country</option>
+                      <option value="Country">Country</option>
+                      <option value="Country">Country</option>
+                      <option value="Country">Country</option>
+                    </select>
                   </div>
                 </div>
                 <div class="form-group">
@@ -172,15 +218,17 @@
                     </td>
                     <td>
                       <p>Days of the Week</p>
-                      <ul class="pagination">
-                        <li><a href="#" class="bg-green">Mon</a></li>
-                        <li><a href="#" class="bg-green">Tue</a></li>
-                        <li><a href="#" class="bg-green">Wed</a></li>
-                        <li><a href="#" class="bg-green">Thu</a></li>
-                        <li><a href="#" class="bg-green">Fri</a></li>
-                        <li><a href="#" class="bg-green">Sat</a></li>
-                        <li><a href="#" class="bg-green">Sun</a></li>
-                      </ul>
+                      <div class="choose-week">
+                        <ul class="pagination">
+                          <li><a href="#" class="bg-green">Mon</a></li>
+                          <li><a href="#" class="bg-green">Tue</a></li>
+                          <li><a href="#" class="bg-green">Wed</a></li>
+                          <li><a href="#" class="bg-green">Thu</a></li>
+                          <li><a href="#" class="bg-green">Fri</a></li>
+                          <li><a href="#" class="bg-green">Sat</a></li>
+                          <li><a href="#" class="bg-green">Sun</a></li>
+                        </ul>
+                      </div>
                     </td>
                     <td>
                       <div class="row">
@@ -223,15 +271,17 @@
                     </td>
                     <td>
                       <p>Days of the Week</p>
-                      <ul class="pagination">
-                        <li><a href="#" class="bg-green">Mon</a></li>
-                        <li><a href="#" class="bg-green">Tue</a></li>
-                        <li><a href="#" class="bg-green">Wed</a></li>
-                        <li><a href="#" class="bg-green">Thu</a></li>
-                        <li><a href="#">Fri</a></li>
-                        <li><a href="#">Sat</a></li>
-                        <li><a href="#">Sun</a></li>
-                      </ul>
+                      <div class="choose-week">
+                        <ul class="pagination">
+                          <li><a href="#" class="bg-green">Mon</a></li>
+                          <li><a href="#" class="bg-green">Tue</a></li>
+                          <li><a href="#" class="bg-green">Wed</a></li>
+                          <li><a href="#" class="bg-green">Thu</a></li>
+                          <li><a href="#">Fri</a></li>
+                          <li><a href="#">Sat</a></li>
+                          <li><a href="#">Sun</a></li>
+                        </ul>
+                      </div>
                     </td>
                     <td>
                       <div class="row">
@@ -274,15 +324,17 @@
                     </td>
                     <td>
                       <p>Days of the Week</p>
-                      <ul class="pagination">
-                        <li><a href="#">Mon</a></li>
-                        <li><a href="#">Tue</a></li>
-                        <li><a href="#">Wed</a></li>
-                        <li><a href="#">Thu</a></li>
-                        <li><a href="#" class="bg-green">Fri</a></li>
-                        <li><a href="#" class="bg-green">Sat</a></li>
-                        <li><a href="#" class="bg-green">Sun</a></li>
-                      </ul>
+                      <div class="choose-week">
+                        <ul class="pagination">
+                          <li><a href="#">Mon</a></li>
+                          <li><a href="#">Tue</a></li>
+                          <li><a href="#">Wed</a></li>
+                          <li><a href="#">Thu</a></li>
+                          <li><a href="#" class="bg-green">Fri</a></li>
+                          <li><a href="#" class="bg-green">Sat</a></li>
+                          <li><a href="#" class="bg-green">Sun</a></li>
+                        </ul>
+                      </div>
                     </td>
                     <td>
                       <div class="row">
@@ -340,37 +392,37 @@
                   <tr>
                     <td>Lounge</td>
                     <td>13</td>
-                    <td class="nav-tabs">10/22/2013
+                    <td class="nav-tabs"><span class="date-created">10/22/2013</span>
                     <a href="#RoomsEdit" role="tab" data-toggle="tab" class="btn btn-default pull-right">Edit Room</a></td>
                   </tr>
                   <tr>
                     <td>Atrium</td>
                     <td>12</td>
-                    <td class="nav-tabs">10/22/2013
+                    <td class="nav-tabs"><span class="date-created">10/22/2013</span>
                     <a href="#RoomsEdit" role="tab" data-toggle="tab" class="btn btn-default pull-right">Edit Room</a></td>
                   </tr>
                   <tr>
                     <td>Main Dining</td>
                     <td>12</td>
-                    <td class="nav-tabs">10/22/2013
+                    <td class="nav-tabs"><span class="date-created">10/22/2013</span>
                     <a href="#RoomsEdit" role="tab" data-toggle="tab" class="btn btn-default pull-right">Edit Room</a></td>
                   </tr>
                   <tr>
                     <td>Tv / Reception</td>
                     <td>7</td>
-                    <td class="nav-tabs">10/22/2013
+                    <td class="nav-tabs"><span class="date-created">10/22/2013</span>
                     <a href="#RoomsEdit" role="tab" data-toggle="tab" class="btn btn-default pull-right">Edit Room</a></td>
                   </tr>
                   <tr>
                     <td>Garden 1</td>
                     <td>19</td>
-                    <td class="nav-tabs">10/22/2013
+                    <td class="nav-tabs"><span class="date-created">10/22/2013</span>
                     <a href="#RoomsEdit" role="tab" data-toggle="tab" class="btn btn-default pull-right">Edit Room</a></td>
                   </tr>
                   <tr>
                     <td>Garden 2</td>
                     <td>19</td>
-                    <td class="nav-tabs">10/22/2013
+                    <td class="nav-tabs"><span class="date-created">10/22/2013</span>
                     <a href="#RoomsEdit" role="tab" data-toggle="tab" class="btn btn-default pull-right">Edit Room</a></td>
                   </tr>
                 </tbody>

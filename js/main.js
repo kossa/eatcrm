@@ -49,8 +49,8 @@
     function(){
       var
         shiftTable        = $('#shift-table'),
-        shiftTableLastRow = shiftTable.find('tr:last'),
-        shiftTableClone   = shiftTableLastRow.clone();
+        shiftTableLastRow = shiftTable.find('tr.demo'),
+        shiftTableClone   = shiftTableLastRow.clone().removeClass('demo');
 
       shiftTableClone.find(".bg-green").each(function(){
         $(this).removeClass('bg-green');

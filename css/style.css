@@ -159,6 +159,7 @@ table{font-size: 13px;border: 1px solid #D6D6D6;}
 .table>tbody>tr>td{vertical-align: middle;line-height: 1.4;padding: 4px 10px;}
 .table .date-created{float: left;margin-top: 7px;}
 table a{color: #4581C7;display: block;}
+#shift-table .demo{display: none;}
 
 /*payment-plan*/
 section.payment-plan{margin-top: -20px;padding-bottom: 10px;border-bottom: 1px solid #B9B9B9; }
@@ -182,7 +183,6 @@ section.credit-card{font-size: 18px;padding: 30px 0;}
 #downloadModal .modal-body{padding: 60px 40px;}
 #downloadModal .modal-body p{margin-bottom: 50px;font-size: 18px;}
 
-#shift-table .demo{display: none;}
 
 
 @media screen and (max-width: 1200px){

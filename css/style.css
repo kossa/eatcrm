@@ -109,6 +109,10 @@ tr th{padding-left: 10px!important;background: #ffffff; /* Old browsers */
 /*RoomsEdit*/
 #RoomsEdit{padding: 50px 0;}
 
+/* Profile */
+#Profile .form-control{width: 340px;}
+
+
 
 /*
 |------------------------------------------------------------------------------------

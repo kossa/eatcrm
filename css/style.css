@@ -125,6 +125,7 @@ tr th{padding-left: 10px!important;background: #ffffff; /* Old browsers */
 /*BTN*/
 .btn{border: none;padding: 6px 20px;border-radius: 20px; font-family: 'avenir_35_lightregular', sans-serif;color: #fff;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;-ms-transition: all 0.3s;transition: all 0.3s;}
 .btn:hover, .btn:focus{color: #fff;}
+.btn-danger, .btn-danger:focus{background-color: #ff5e5d;}
 .btn-success, .btn-success:focus{background-color: #8CD05D;}
 .btn-success:hover{background-color: #449d44;}
 .btn-lg{font-size: 16px; padding: 11px 50px;}

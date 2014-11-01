@@ -16,6 +16,8 @@ a:hover{color: #498F1A;text-decoration: none;}
 img{max-width: 100%;}
 strong{font-family: 'avenir_95_blackregular',sans-serif;}
 .mt30{margin-top: 30px;}
+.mt15{margin-top: 15px;}
+.green{color: #80c154!important;}
 .bg-green{background-color: #80C154!important;color: #fff!important;}
 .form-group{margin-bottom: 20px;}
 .control-label{font-family: 'Roboto', sans-serif;font-weight: 100;font-size: 16px;}
@@ -94,8 +96,12 @@ tr th{padding-left: 10px!important;background: #ffffff; /* Old browsers */
 /* Main */
 .main{padding: 20px 30px 100px 130px;}
 .main h1.page-header{padding-bottom: 20px;margin-bottom: 20px;font-family: 'Roboto', sans-serif;font-weight: 100;font-size: 42px;border-bottom: 1px solid #B9B9B9}
+.main h1.page-header strong{font-weight: 400;font-family: 'Roboto', sans-serif;margin-left: 15px;}
+.main h1.page-header .btn{padding: 11px 75px;}
 .main h2.sub-header{font-size: 18px;}
+.main h2.sub-title{line-height: 1.5; margin: 10px 0 40px;font-family: 'Roboto', sans-serif;font-weight: 100;font-size: 30px;}
 .main h3.sub-header{line-height: 1.5; margin: 12px 0 -3px;font-size: 18px;}
+
 
 /*
 |------------------------------------------------------------------------------------

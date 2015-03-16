@@ -48,6 +48,8 @@ tr th{padding-left: 10px!important;background: #ffffff; /* Old browsers */
 }
 .Total{font-weight: bold;font-size: 14px;}
 .bdr{border-right: 1px solid #D6D6D6;}
+
+
 /* Login Page */
 .login-page{background-color: #80C154;}
 .form-signin {max-width: 330px; padding: 15px; margin: 0 auto; height: 330px;position: absolute;top: 50%;margin-top: -165px;width: 100%;left: 50%;margin-left: -165px;}
@@ -81,7 +83,7 @@ tr th{padding-left: 10px!important;background: #ffffff; /* Old browsers */
 .navbar-inverse .navbar-brand{text-align: center;background-color: #80C154; width: 90px; height: 60px;}
 .navbar-inverse .navbar-brand img{width: 43px;margin: 3px;display: inline-block;}
 .navbar-inverse .navbar-nav a{width: 110px;text-align: center;border-radius: 0;margin: 0;font-family: 'avenir_55roman', sans-serif;border: none;border-right: 1px solid #4C4D51;padding: 20px 0;font-size: 13px;-webkit-transition: none;-moz-transition: none;-o-transition: none;-ms-transition: none;transition: none;}
-.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:hover, .navbar-inverse .navbar-nav a:hover{border: none;border-right: 1px solid #4C4D51;background-color: #34353A;border-top: 5px solid #80C154;padding-top: 15px;}
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:hover, .navbar-inverse .navbar-nav a:hover, .navbar-inverse .navbar-nav>.active>a:focus{border: none;border-right: 1px solid #4C4D51;background-color: #34353A;border-top: 5px solid #80C154;padding-top: 15px;}
 .navbar-inverse .navbar-nav{border: none;}
 
 /* Sidebar */
@@ -215,4 +217,5 @@ section.credit-card{font-size: 18px;padding: 30px 0;}
 @media screen and (max-width: 480px){
 
 }
+
 
